@@ -1,6 +1,8 @@
 # BUSINESS-ANALYSIS-PROJECT-BASED-ON-BRISBANE-FOOD-SAFETY-PERMITS
 
-BUSINESS ANALYSIS PROJECT BASED ON BRISBANE FOOD SAFETY PERMITS
+
+# BUSINESS ANALYSIS SAMPLE PROJECT BASED ON BRISBANE FOOD SAFETY PERMITS
+# ALL the business analysis steps are from my perspective, happy to receive feedback !!
 
 # 1)	Business Understanding Document
 
@@ -40,17 +42,17 @@ BO6	Improve management reporting. 	Could be figured out with the help of KPI’S
 
 ID	Stakeholders	Responsibility
 
-BS1	Operational and industry authorities	Includes landlords, insurance providers and utility providers
+BS1	Operational and industry authorities -	Includes landlords, insurance providers and utility providers
 
-BS2	Owners and Investors	Those who own and invest in the company
+BS2	Owners and Investors -	Those who own and invest in the company
 
-BS3	Regulatory authorities	Includes state and government authorities who provide safety ratings for the company
+BS3	Regulatory authorities -	Includes state and government authorities who provide safety ratings for the company
 
-BS4	Competitors	Those companies who compete with other companies
+BS4	Competitors - Those companies who compete with other companies
 
-BS5	Data analyst/ BI developers	Implements data transformations, SQL analysis and dashboard logic
+BS5	Data analyst/ BI developers -	Implements data transformations, SQL analysis and dashboard logic
 
-BS6	Business Analyst	Documents need, validates findings and manages traceability
+BS6	Business Analyst -	Documents need, validates findings and manages traceability
 
 BS7	Suppliers	Local farmers, wholesale food distributors, packaging companies
 
@@ -60,37 +62,37 @@ BS8	Customers	Those who buy the product from the company.
 
 ID	Item	Action	Assumptions and Risks
 
-A1	Business name	Could be used to identify the businesses operating around Brisbane or other states	Assumption
+A1	Business name -	Could be used to identify the businesses operating around Brisbane or other states	Assumption
 
-A2	Business Address	Could be used to identify the address of the businesses	Assumption
+A2	Business Address -	Could be used to identify the address of the businesses	Assumption
 
-A3	Suburbs	Could be used to identify and categorise the areas where most businesses used to happen	Assumption
+A3	Suburbs - 	Could be used to identify and categorise the areas where most businesses used to happen	Assumption
 
-A4	Eat safe ratings	Used to identify those businesses with safety and healthy ratings and also where consumers tend to approach more within based on it.	Assumption
+A4	Eat safe ratings -	Used to identify those businesses with safety and healthy ratings and also where consumers tend to approach more within based on it.	Assumption
 
-A5	Permit Name	Used to identify those businesses where consumers tends to approach more or less based on different categories of business.	Assumption
+A5	Permit Name -	Used to identify those businesses where consumers tends to approach more or less based on different categories of business.	Assumption
 
-A7	Business phone number	Shows the phone number of some businesses, won’t provide the number of all businesses, might have to search somewhere else	Risks
+A7	Business phone number -	Shows the phone number of some businesses, won’t provide the number of all businesses, might have to search somewhere else	Risks
 
-A8	Business address line 1 and line 2	Repeated address on the table or dataset	Risks
+A8	Business address line 1 and line 2 -	Repeated address on the table or dataset	Risks
 
-A9	Business address suburb list	Repeated suburb list on the table or dataset	Risks
+A9	Business address suburb list -	Repeated suburb list on the table or dataset	Risks
 
 # 5)Data Dictionary
 
 Field	Definition	Datatype
 
-Business Name	Shows name of the Business	text
+Business Name -	Shows name of the Business -	text
 
-Business Address	Shows address of the business	text
+Business Address -	Shows address of the business -	text
 
-Business Adress suburb	Shows suburb on which the business operates	text
+Business Adress suburb -	Shows suburb on which the business operates -	text
 
-Business phone number	Shows the phone numbers of the operating business	num
+Business phone number -	Shows the phone numbers of the operating business -	num
 
-Eat safe ratings	Show the healthy safety ratings of the businesses	num
+Eat safe ratings -	Show the healthy safety ratings of the businesses -	num
 
-Permit name	Shows the categories of all the operating businesses	text
+Permit name -	Shows the categories of all the operating businesses -	text
 
 # 6)Requirement elicitation
 
@@ -108,28 +110,47 @@ Permit name	Shows the categories of all the operating businesses	text
 
 # 7) Business requirements into functional requirements
 
-FR1	Display the Business table	Must have
+FR1	Display the Business table -	Must have
 
-FR2	Filter by address, (not appropriate)	Could have
+FR2	Filter by address, (not appropriate) -	Could have
 
-FR3	Filter by location based on suburb	Must have
+FR3	Filter by location based on suburb -	Must have
 
-FR4	Filter by phone number	Must have
+FR4	Filter by phone number -	Must have
 
-FR5	Filter by eat safe ratings or health safe ratings.	Must have
+FR5	Filter by eat safe ratings or health safe ratings - Must have
 
-FR6	Filter by permit name	Must have
+FR6	Filter by permit name -	Must have
 
-FR7	Data quality	Must have
+FR7	Data quality -	Must have
 
 # 8) Process Modelling Diagram
 
 <img width="1461" height="377" alt="Screenshot 2026-10-22 131201" src="https://github.com/user-attachments/assets/d41986f6-47aa-41e7-8c79-64eccb92e4a4" />
 
-# 9) Power Bi dashboard
+# 9) Uploaded Power Bi dashboard Analysis( all the measures and queries where done on a sample dashboard which i can upload, was bit lazy and not ready to spend more time on designing the dashboard, used AI for     it, and all the key findings are done by me based on the analysis of the dashboard)
+ 
+  THE DATASET WAS COLLECTED FROM BRISBANE CITY COUNCIL'S DATASETS - https://data.brisbane.qld.gov.au/explore/?sort=explore.popularity_score
 
 
+Top suburbs: Brisbane City (794) and Brisbane (525) hold about 16% of all permits. They are two spellings of the same area. Fortitude Valley (294) and South Brisbane (221) follow.
 
+Categories: Cafe/Restaurant is on about 52% of permits, followed by Takeaway Food (2,006).
+
+Eat Safe coverage: only 47% of businesses have a rating. Of those, 48% are rated 4 stars, 29% are rated 3 and 22% are rated 5, with an average of 3.93.
+
+Best and worst categories: Child Care Centres rate best (4.60 average, 63% at 5 stars). Cafes/Restaurants (3.80) and Takeaway (3.84) rate lowest, even though they are the biggest categories.
+
+Phone numbers: 84% of records have none.
+
+Placeholder addresses: 40 records use a “Licensing and Registration PO Box” address, all in Glen Iris, Victoria.
+
+Address duplication: “Brisbane Markets and Events” appears about 415 times across its spellings.
+
+
+# 10) Author
+
+Cherian Tomy: Business Analyst and AI Integration Specialist, Brisbane, Australia
 
 
 
